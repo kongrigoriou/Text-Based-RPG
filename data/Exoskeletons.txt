@@ -1,0 +1,10 @@
+Soots		200	    10	    1	    10      1
+Onyx		210	    12	    4	    10      2
+Pyre		220	    14	    7	    10      3
+Aurora		230	    16	    10	    10      4
+Inferno		240	    18	    13	    10      5
+Flare		250	    20	    16	    10      6
+Sunbeam		260	    22	    19	    10      7
+Kindle		270	    24	    22	    10      8
+Soul		280	    26	    25	    10      9
+Illumine	290	    28	    28	    10      10

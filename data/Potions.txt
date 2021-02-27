@@ -1,0 +1,10 @@
+Eye_Drops           40            2             Strength                20
+Holy_Water          35            1             HealthPower             15
+Tetra_Elemental     45            3             MagicPower              20
+Candle_of_Life      50            4             HealthPower             40
+Dream_Powder        47            3             Dexterity               15
+Farplane_Shadow     55            5             Agility                 30
+Sleeping_Powder     53            4             MagicPower              35
+Petrify_Grenade     60            7             Strength                50
+Poison_Fang         57            6             Dexterity               34
+Blessed_Gem         47            5             Agility                 42

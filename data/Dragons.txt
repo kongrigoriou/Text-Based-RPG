@@ -1,0 +1,10 @@
+Duldrar		    200	    10	    1	    10      1
+Inai		    220	    15	    2	    10	    2
+Pynnag		    240	    20	    3	    10      3
+Doirdig		    260	    25	    4	    10      4
+Piesuρ		    280	    30	    5	    10      5
+Nygheis		    300	    35	    6	    10      5
+Oldryn		    320	    40	    7	    10      6
+Qardysdeirth	340	    45	    8	    10      7
+Brevraicress	360	    50	    9	    10      8
+Tiageosde	    380	    55	    10	    10      9

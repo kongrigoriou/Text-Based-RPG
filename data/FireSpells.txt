@@ -1,0 +1,10 @@
+Torch               20      1       13      10      1
+Eruption            35      2       23      17      2
+Flare               27      2       17      12      1
+Blaze               40      3       30      25      2
+Inferno             70      9       70      80      5
+Fireball            50      5       47      35      2
+Burn_the_Soul       60      6       52      45      3
+Meteor              45      5       40      31      2
+Salamander’s_Blade  42      4       35      28      2
+Dragon_Fire         60      7       60      53      4

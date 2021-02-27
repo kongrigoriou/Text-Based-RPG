@@ -1,0 +1,10 @@
+Caladbolg           200         1           20          1
+Taming_Sword        250         4           30          2
+Crystal_Dagger      500         7           44          1
+Excalibur           700         10          70          1
+Balmung             400         6           38          2
+Lionheart           350         5           35          2
+Durandal            300         3           27          1
+Astral_Sword        600         8           58          2
+Slowstrike          450         6           43          1
+Master_Sword        550         7           50          1

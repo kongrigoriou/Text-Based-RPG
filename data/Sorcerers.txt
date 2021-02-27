@@ -1,0 +1,11 @@
+Corlaith_Wysafir    700     600
+Audlather_Gilrie    650     650
+Wyros_Mianala       700     600
+Ilonar_Sarrel       650     650
+Rogeis_Holakrana    600     
+Galrynnon_Raloven   750
+Renynor_Norlynn     700
+Salrynn_Quigwyn     750
+Nigetaor_Jocaryn    600
+Simfaerd_Torvyre    650
+

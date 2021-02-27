@@ -1,0 +1,10 @@
+Senua                   700     500     40      30      10
+Xontri_Gata             1000    400     60      35      10
+Dante                   750     500     40      30      12
+Abbathor                650     600     50      32      11
+Aerdrie_Faenya          750     500     40      33      12
+Arvoreen                700     500     45      30      10
+Baervan_Wildwanderer    750     500     40      34      12
+Baravar_Cloakshadow     800     450     40      33      11
+Berronar_Truesilver     900     450     40      32      12
+Brandobaris             800     500     40      30      11

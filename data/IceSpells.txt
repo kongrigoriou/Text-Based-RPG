@@ -1,0 +1,10 @@
+Freeze_Wave     50      5       50      30      3
+Landslide       40      3       30      25      2
+Avalanche       35      2       25      23      1            
+Chill           60      7       60      45      4
+Freeze          45      4       35      28      3
+Frostbite       20      1       12      10      1
+Whirlwhind      45      5       47      32      3
+Cyclone         50      6       53      40      3
+Vortex          55      7       60      45      4
+Shadow_Blade    65      8       70      52      5
