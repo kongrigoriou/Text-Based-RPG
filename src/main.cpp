@@ -33,7 +33,7 @@ int main(void){
 
     int dmg, hands;
     if(Weapons.is_open()){
-        cout << "-----------------------------------------------------------------------" << endl;
+        // cout << "-----------------------------------------------------------------------" << endl;
         while (Weapons >> name >> price >> lvl >> dmg >> hands){
             cout << name << price << endl;
             m.AddWeapon(name, price, lvl, hands, dmg);
@@ -49,7 +49,7 @@ int main(void){
 
     string buff;
     if(Potions.is_open()){
-        cout << "-----------------------------------------------------------------------" << endl;
+        // cout << "-----------------------------------------------------------------------" << endl;
         while (Potions >> name >> price >> lvl >> buff >> dmg){         //dmg aka buff%
             m.AddPotion(name, buff, lvl, price, dmg);
         }
@@ -64,7 +64,7 @@ int main(void){
 
     int rounds, magic;
     if(FireSpells.is_open()){
-        cout << "-----------------------------------------------------------------------" << endl;
+        // cout << "-----------------------------------------------------------------------" << endl;
         while (FireSpells >> name >> price >> lvl >> magic >> dmg >> rounds){         //dmg aka buff%
             m.AddFireSpell(name, price, lvl, dmg, magic, rounds);
         }
@@ -78,7 +78,7 @@ int main(void){
     IceSpells.open("./data/IceSpells.txt");
 
     if(IceSpells.is_open()){
-        cout << "-----------------------------------------------------------------------" << endl;
+        // cout << "-----------------------------------------------------------------------" << endl;
         while (IceSpells >> name >> price >> lvl >> magic >> dmg >> rounds){         //dmg aka buff%
             m.AddIceSpell(name, price, lvl, dmg, magic, rounds);
         }
@@ -92,7 +92,7 @@ int main(void){
     LightingSpells.open("./data/LightingSpells.txt");
 
     if(LightingSpells.is_open()){
-        cout << "-----------------------------------------------------------------------" << endl;
+        // cout << "-----------------------------------------------------------------------" << endl;
         while (LightingSpells >> name >> price >> lvl >> magic >> dmg >> rounds){         //dmg aka buff%
             m.AddLightingSpell(name, price, lvl, dmg, magic, rounds);
         }
@@ -107,7 +107,7 @@ int main(void){
 
     int hp, ag;
     if(Dragons.is_open()){
-        cout << "-----------------------------------------------------------------------" << endl;
+        // cout << "-----------------------------------------------------------------------" << endl;
         while (Dragons >> name >> hp >> dmg >> def >> ag >> lvl){
             grid.insert_Dragon(name, hp, dmg, def, ag, lvl);
             cout <<"Dragon here: " << name << endl;
@@ -123,7 +123,7 @@ int main(void){
     Exoskeletons.open("./data/Exoskeletons.txt");
 
     if(Exoskeletons.is_open()){
-        cout << "-----------------------------------------------------------------------" << endl;
+        // cout << "-----------------------------------------------------------------------" << endl;
         while (Exoskeletons >> name >> hp >> dmg >> def >> ag >> lvl){
             grid.insert_Exoskeleton(name, hp, dmg, def, ag, lvl);
         }
@@ -137,7 +137,7 @@ int main(void){
     Spirits.open("./data/Spirits.txt");
 
     if(Spirits.is_open()){
-        cout << "-----------------------------------------------------------------------" << endl;
+        // cout << "-----------------------------------------------------------------------" << endl;
         while (Spirits >> name >> hp >> dmg >> def >> ag >> lvl){
             grid.insert_Spirit(name, hp, dmg, def, ag, lvl);
         }
@@ -152,7 +152,7 @@ int main(void){
 
     int dex;
     if(Warriors.is_open()){
-        cout << "-----------------------------------------------------------------------" << endl;
+        // cout << "-----------------------------------------------------------------------" << endl;
         while (Warriors >> name >> hp >> magic >> dmg >> ag >> dex){
             team.insert_Warrior(name, hp, magic, dmg, ag, dex);
         }

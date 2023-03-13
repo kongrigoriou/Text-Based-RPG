@@ -302,14 +302,16 @@ int Grid::battle(){
                 cout << "To display the available Potions type 'display'" << endl;
                 cin >> input;
                 int flag = 0;
-                while(flag == 0){
+                while(flag < 2){
                     if(input == "display"){
                         (*it)->display_Potions();
+                        flag++;
                     }else{
                         (*it)->usePotion(input);
-                        flag = 1;
+                        flag++;
                     }
-                    cin >> input;
+                    // cin >> input;
+                    flag++;
                 }
             }else if(input == "attack"){
                 (*it)->attack(*mit);

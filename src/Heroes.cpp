@@ -218,6 +218,11 @@ void Hero::display_Armors(){
 void Hero::display_Potions(){
     list<Potion*>::iterator it;
 
+    if(Potions.empty()){
+        cout << "You don't have any Potions" << endl;
+        return;
+    }
+
     for(it = Potions.begin(); it != Potions.end(); ++it){
         cout << (*it)->get_name() << endl;
         cout << "Stat: " << (*it)->get_statname();
@@ -338,9 +343,7 @@ void Hero::usePotion(string potion_name){
         if( (*pt)->get_name() == potion_name) {
             flag = 1;
             break;
-            
         }
-
     }
 
     if(flag == 1){

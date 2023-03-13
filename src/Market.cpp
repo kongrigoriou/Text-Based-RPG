@@ -12,7 +12,7 @@ using namespace std;
 
 Market::Market(Squad* sq):team(sq){
 
-	cout << "A Market was just created" << endl;
+	// cout << "A Market was just created" << endl;
 
 }
 
@@ -72,37 +72,29 @@ void Market::displayItems() {
 	cout << "WEAPONS \n" << endl;
 
 	for (it = Weapons.begin(); it !=  Weapons.end(); ++it) {
-		
 		cout << (*it)->get_name() << " " << (*it)->get_price() << " " << (*it)->get_minlvl() << " " << (*it)->get_damage() << " " << (*it)->get_handsNeeded() << endl;
-
 	}
 
 	list<Armor*> ::iterator ia;
 	cout << "ARMORS \n" << endl;
 
 	for (ia = Armors.begin(); ia != Armors.end(); ++ia) {
-
 		cout << (*ia)->get_name() << " " << (*ia)->get_price() << " " << (*ia)->get_minlvl() << " " << (*ia)->get_protection() << endl;
-
 	}
 
 	list<Potion*> ::iterator ip;
 	cout << "POTIONS \n" << endl;
 
 	for (ip = Potions.begin(); ip != Potions.end(); ++ip) {
-
 		cout << (*ip)->get_name() << " " << (*ip)->get_price() << " " << (*ip)->get_minlvl() << " " << (*ip)->get_buff() << endl;
-
 	}
 
 	list<Spell*> :: iterator sp;
 	cout << "SPELLS \n" << endl;
 
 	for(sp = Spells.begin(); sp != Spells.end(); ++sp){
-
 		cout << (*sp)->get_name() << " " << (*sp)->get_price()<< " " << (*sp)->get_minlvl() << " " << (*sp)->get_DmgRange() << " " << (*sp)->get_MagicPower()
 			<< " " << (*sp)->get_Reduction() <<  endl;
-
 	}
 }
 
